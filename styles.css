@@ -1,0 +1,70 @@
+header{
+    background: linear-gradient(
+        to top right,
+        green,
+        yellow
+    );
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    color: rgb(86, 90, 5);
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+li{
+    padding: 15px;
+
+}
+ul li:hover{
+    cursor: pointer;
+    color:black;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background: linear-gradient( 
+        to top right,
+        yellow,
+        red
+    );
+
+}
+.imagenfondo{
+    background-image: url("sucre.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    display:flex;
+}
+.fondo{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 25px;
+    width: 60%;
+}
+h2{
+    color:white;
+}
+.boton{
+    background-color:red;
+    color:orange;
+    padding: 20px 90px;
+    border-radius: 30px;
+    font-size: large;
+}
+.boton:hover{
+    color:white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
